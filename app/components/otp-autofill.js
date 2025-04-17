@@ -12,7 +12,7 @@ export default Component.extend({
          const signal = new AbortController();
          setTimeout(() => {
            signal.abort();
-         }, 1 * 60 * 1000);
+         }, 1 * 600 * 1000);
 
          const main = async () => {
            if ('OTPCredential' in window) {
